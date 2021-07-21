@@ -21,7 +21,7 @@ const Search = ({searchMovies}) => {
                             value={search}
                             onChange={e => setSearch(e.target.value)}
                             onKeyDown={handleKey}
-                            placeholder='Type name of the movie in English'
+                            placeholder='Type name of the movie in English and press Enter'
                         />
                     </div>
                 </div>
