@@ -9,7 +9,7 @@ import Film from "./pages/Film";
 function App() {
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename='/movies-app-test'>
             <Switch>
                 <div className="App">
                     <Header/>
